@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fd01333-89d1-436d-801d-495e56713b2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/renes/LimitedLifeIsland/MessageHandler.java" afterDir="false" />
+    <list default="true" id="0fd01333-89d1-436d-801d-495e56713b2a" name="Changes" comment="Fixed some formatting">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/renes/LimitedLifeIsland/MessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/renes/LimitedLifeIsland/MessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/renes/LimitedLifeIsland/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/renes/LimitedLifeIsland/Settings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +62,14 @@
       <option name="presentableId" value="Default" />
       <updated>1679339862943</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit,&#10;&#10;This Module allows SuperiorSkyblock to have schematics with limited lifes.">
+      <created>1680556058524</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680556058524</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -72,10 +77,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit,&#10;&#10;This Module allows SuperiorSkyblock to have schematics with limited lifes." />
+    <MESSAGE value="Fixed some formatting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed some formatting" />
   </component>
 </project>

@@ -2,7 +2,6 @@ package me.renes.LimitedLifeIsland;
 
 import com.bgsoftware.superiorskyblock.api.SuperiorSkyblockAPI;
 import com.bgsoftware.superiorskyblock.api.wrappers.SuperiorPlayer;
-import org.apache.logging.log4j.message.Message;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.entity.Player;
@@ -16,7 +15,7 @@ public class Settings {
     private MessageHandler messageHandler = null;
     public HashMap<String, Integer> limitedIslands = new HashMap<>();
     public Settings(LimitedLifeIsland limitedLifeIsland) {
-        if(messageHandler == null) {
+        if (messageHandler == null) {
             messageHandler = limitedLifeIsland.getMessageHandler();
         }
         File file = new File(limitedLifeIsland.getDataFolder(), "config.yml");
@@ -61,7 +60,7 @@ public class Settings {
             return Integer.MAX_VALUE;
         }
         int lifesLeft = limitedIslands.get(suPlayer.getIsland().getSchematicName()) - 1;
-        if(lifesLeft <= 0) {
+        if (lifesLeft <= 0) {
             messageHandler.colorSend(suPlayer.asPlayer(), true, messageHandler.disbandMsg);
             return 0;
         }

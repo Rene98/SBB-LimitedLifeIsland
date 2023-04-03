@@ -19,7 +19,7 @@ public class MessageHandler {
 
     public void colorSend(Player p, boolean prefix, String msg) {
         for (SuperiorPlayer islandMember : SuperiorSkyblockAPI.getPlayer(p).getIsland().getIslandMembers(true)) {
-            if(islandMember.isOnline()) {
+            if (islandMember.isOnline()) {
                 islandMember.asPlayer().sendMessage(
                         ChatColor.translateAlternateColorCodes('&',
                         ((prefix ? prefixMsg : "") + parsePlaceholders(msg, p))));
@@ -28,7 +28,7 @@ public class MessageHandler {
     }
 
     private String parsePlaceholders(String msg, Player p) {
-        if(settings == null) {
+        if (settings == null) {
             settings = LLI.getSettings();
         }
         msg = msg.replace("%SBB-LLI-remainingLifes%", Integer.toString(settings.getLifes(p)));
