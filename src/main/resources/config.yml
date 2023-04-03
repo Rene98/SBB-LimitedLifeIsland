@@ -1,0 +1,26 @@
+######################################################
+##                                                  ##
+##      SuperiorSkyblock 2 - LimitedLifeIsland      ##
+##                Developed by Rene98               ##
+##                                                  ##
+######################################################
+
+### PLACEHOLDERS ### (For config and PlaceholderAPI)
+# %SBB-LLI-remainingLifes% >| Shows remaining islandLifes
+
+
+#  Option to add a prefix to messages from this module,
+#  leave blank for no prefix
+pluginPrefix: "&7SBB&8-&3LLI&7 >>"
+
+messages:
+  #  Set a message when death is triggered, will show to all online island members [COLOR CODES ARE ALLOWED]
+  #  to display the players name use %playerName% (if message reciever is said name, the name will be replaced with you)
+  deathMessage: "&9%playerName% &4died&7, the island lost a life [&a%SBB-LLI-remainingLifes% &7life(s) left]"
+  #  Shown when island is disbanded due to no lifes left
+  disbandMessage: "&4Island ran out of lifes ;( and was therefore disbanded."
+
+islandLifes:
+#  List all schematic names which are limited life(s) only,
+#  schematics who are not listed here will have unlimited lifes =)
+#  <SchematicName>: <amount of life(s)>

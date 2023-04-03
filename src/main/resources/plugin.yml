@@ -1,0 +1,5 @@
+name: SBB-LimitedLifeIsland
+version: 0.1
+author: Rene98
+main: me.renes.LimitedLifeIsland.LimitedLifeIsland
+loadbefore: [SuperiorSkyblock2]
